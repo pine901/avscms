@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Video</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="60" height="60"></rect>
+        <linearGradient x1="100%" y1="50%" x2="7.84664451%" y2="19.7530864%" id="linearGradient-3">
+            <stop stop-color="#EE396B" offset="0%"></stop>
+            <stop stop-color="#EE396B" offset="48.5420914%"></stop>
+            <stop stop-color="#FF6590" offset="100%"></stop>
+        </linearGradient>
+        <path d="M41,5.77777778 C47.0751322,5.77777778 52,10.7026455 52,16.7777778 L52,35.2222222 C52,41.2973545 47.0751322,46.2222222 41,46.2222222 L11,46.2222222 C4.92486775,46.2222222 4.29670281e-15,41.2973545 0,35.2222222 L0,16.7777778 C1.03236771e-15,10.7026455 4.92486775,5.77777778 11,5.77777778 L41,5.77777778 Z M21.7777778,17.8985711 C20.1209235,17.8985711 18.7777778,19.2417169 18.7777778,20.8985711 L18.7777778,20.8985711 L18.7777778,31.1014289 C18.7777778,31.6451607 18.9255513,32.1786699 19.205299,32.6449161 C20.0577435,34.0656569 21.9005242,34.5263521 23.321265,33.6739076 L23.321265,33.6739076 L31.8236465,28.5724788 C32.2458953,28.3191295 32.5992887,27.9657361 32.852638,27.5434873 C33.7050825,26.1227465 33.2443873,24.2799657 31.8236465,23.4275212 L31.8236465,23.4275212 L23.321265,18.3260924 C22.8550188,18.0463446 22.3215096,17.8985711 21.7777778,17.8985711 Z" id="path-4"></path>
+        <filter x="-11.5%" y="-14.8%" width="123.1%" height="129.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.964705882   0 0 0 0 0.305882353   0 0 0 0 0.490196078  0 0 0 0.155594406 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_亮点" transform="translate(-985.000000, -535.000000)">
+            <g id="编组-9" transform="translate(350.000000, 505.000000)">
+                <g id="编组-19备份" transform="translate(620.000000, 0.000000)">
+                    <g id="Video" transform="translate(15.000000, 30.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <g id="编组-29" mask="url(#mask-2)">
+                            <g transform="translate(4.000000, 4.000000)">
+                                <rect id="矩形" x="0" y="0" width="52" height="52"></rect>
+                                <g id="形状结合" opacity="0.7">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                    <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 30</title>
+    <defs>
+        <linearGradient x1="84.7222222%" y1="50%" x2="20.7268365%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#EE396B" offset="0%"></stop>
+            <stop stop-color="#EE396B" offset="48.5420914%"></stop>
+            <stop stop-color="#FF6590" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-970.000000, -1964.000000)">
+            <g id="编组-20" transform="translate(970.000000, 1934.000000)">
+                <g id="编组-30" transform="translate(0.000000, 30.000000)">
+                    <rect id="矩形" x="0" y="0" width="72" height="72"></rect>
+                    <path d="M56,0 C61.5228475,-1.01453063e-15 66,4.4771525 66,10 L66,62 C66,67.5228475 61.5228475,72 56,72 L16,72 C10.4771525,72 6,67.5228475 6,62 L6,10 C6,4.4771525 10.4771525,1.01453063e-15 16,0 L56,0 Z M36,53 C32.1340068,53 29,56.1340068 29,60 C29,63.8659932 32.1340068,67 36,67 C39.8659932,67 43,63.8659932 43,60 C43,56.1340068 39.8659932,53 36,53 Z M36,55 C38.7614237,55 41,57.2385763 41,60 C41,62.7614237 38.7614237,65 36,65 C33.2385763,65 31,62.7614237 31,60 C31,57.2385763 33.2385763,55 36,55 Z" id="形状结合" fill="url(#linearGradient-1)" opacity="0.7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

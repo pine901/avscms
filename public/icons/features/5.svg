@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Video Thumbnails</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="60" height="60"></rect>
+        <linearGradient x1="100%" y1="50%" x2="7.84664451%" y2="15.6821913%" id="linearGradient-3">
+            <stop stop-color="#EE396B" offset="0%"></stop>
+            <stop stop-color="#EE396B" offset="48.5420914%"></stop>
+            <stop stop-color="#FF6590" offset="100%"></stop>
+        </linearGradient>
+        <path d="M40.5719736,8 C45.4199061,8 49.3874871,11.9667031 49.3874871,16.8155134 L49.387,22.629 L49.3918717,22.4792571 C49.4896609,20.7464946 50.9378736,19.3596374 52.6934509,19.3596374 C54.5123126,19.3596374 56,20.84791 56,22.6661865 L56,37.2369783 C56,39.0559132 54.5123126,40.5435274 52.6934509,40.5435274 C50.8869989,40.5435274 49.406929,39.075566 49.3868166,37.2741505 L49.3874871,42.265312 C49.3866092,47.1135371 45.4199061,51.0802402 40.5710958,51.0802402 L12.8155134,51.0802402 C7.96721514,51.0802402 4,47.1135371 4,42.2647267 L4,16.8155134 C4,11.9672151 7.96670306,8 12.8155134,8 L40.5719736,8 Z M21.7398821,21.5649057 L21.7398821,36.619474 C21.7398821,38.4800342 23.9882389,39.4116677 25.303938,38.0959686 L32.8314782,30.568721 C33.6467947,29.7534045 33.6467947,28.4314872 32.8314782,27.6162439 L25.303938,20.0886305 C23.9888241,18.7738093 21.7398821,19.7048575 21.7398821,21.5649057 Z" id="path-4"></path>
+        <filter x="-11.5%" y="-13.9%" width="123.1%" height="127.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.964705882   0 0 0 0 0.305882353   0 0 0 0 0.490196078  0 0 0 0.155594406 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_亮点" transform="translate(-365.000000, -1055.000000)">
+            <g id="编组-9" transform="translate(350.000000, 505.000000)">
+                <g id="编组-19备份-4" transform="translate(0.000000, 520.000000)">
+                    <g id="Video-Thumbnails" transform="translate(15.000000, 30.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <g id="形状结合" opacity="0.7" mask="url(#mask-2)">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .page-title{
+        @apply font-medium text-grayish-100 lg:text-5xl md:text-4xl sm:text-3xl  text-2xl  text-center w-full flex flex-col items-center gap-5 ;
+    }
+
+    .outlined-btn{
+        @apply border sm:text-base text-sm  border-primary-100 text-primary-100 rounded-full py-3 px-8 hover:bg-primary-100 hover:text-white transition-colors duration-200;
+    }
+    .filled-btn{
+        @apply   sm:text-base text-sm text-white rounded-full py-3 px-8 ;
+        background: linear-gradient(298deg, #EE396B 0%, #EE396B 49%, #FF6590 100%);
+    }
+    .black-btn{
+        @apply  sm:text-base text-sm rounded-full text-grayish-100 py-3 px-16 border hover:border-primary-100 border-grayish-100 hover:text-primary-100 transition-colors duration-200;
+    }
+    .page {
+        @apply  xl:px-[12%] lg:px-[10%] md:px-[7%] sm:px-[5%] px-[3%] min-h-[50vh] xl:py-12 md:py-10 sm:py-6 py-4;
+    }
+
+    .main-padding{
+        @apply  xl:px-[12%] lg:px-[10%]  md:px-[7%] sm:px-[5%] px-[3%];
+    }
+    .policy-title{
+        @apply lg:text-4xl md:text-3xl sm:text-2xl text-xl text-grayish-100;
+    }
+    .policy-subtitle{
+        @apply lg:text-3xl md:text-2xl sm:text-xl text-lg text-grayish-100;
+    }
+
+    .policy-normal-text{
+        @apply text-grayish-200 md:text-base text-sm;
+    }
+}

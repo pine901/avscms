@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>矩形</title>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="7.84664451%" y2="17.5540123%" id="linearGradient-1">
+            <stop stop-color="#EE396B" offset="0%"></stop>
+            <stop stop-color="#EE396B" offset="48.5420914%"></stop>
+            <stop stop-color="#FF6590" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-310.000000, -1964.000000)">
+            <g id="编组-19" transform="translate(310.000000, 1934.000000)">
+                <g id="矩形" transform="translate(0.000000, 30.000000)">
+                    <rect id="蒙版" x="0" y="0" width="72" height="72"></rect>
+                    <path d="M62,7 C67.5228475,7 72,11.4771525 72,17 L72,55 C72,60.5228475 67.5228475,65 62,65 L10,65 C4.4771525,65 6.76353751e-16,60.5228475 0,55 L0,17 C-6.76353751e-16,11.4771525 4.4771525,7 10,7 L62,7 Z M20.25,26 L15,26 L15,47 L20.25,47 L20.25,39.125 L27.25,39.125 L27.25,47 L32.5,47 L32.5,26 L27.25,26 L27.25,33.875 L20.25,33.875 L20.25,26 Z M50,26 L39.5,26 L39.5,47 L50,47 C53.8659932,47 57,43.8659932 57,40 L57,33 C57,29.1340067 53.8659932,26 50,26 Z M50,31.25 C50.9664983,31.25 51.75,32.0335017 51.75,33 L51.75,40 C51.75,40.4641289 51.5656255,40.9092482 51.2374368,41.2374369 C50.9092482,41.5656255 50.4641288,41.75 50,41.75 L44.75,41.75 L44.75,31.25 L50,31.25 Z" id="形状结合" fill="url(#linearGradient-1)" opacity="0.7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

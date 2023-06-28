@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状结合</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="34" height="34"></rect>
+        <linearGradient x1="100%" y1="50%" x2="7.84664451%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#EE396B" offset="0%"></stop>
+            <stop stop-color="#EE396B" offset="48.5420914%"></stop>
+            <stop stop-color="#FF6590" offset="100%"></stop>
+        </linearGradient>
+        <path d="M16.9999094,1.42108547e-14 C26.3886733,1.42108547e-14 34,7.61128142 34,16.9998642 C34,23.2613492 30.6146426,28.7322534 25.5742316,31.6818202 L31.2953815,31.6818202 C31.9356428,31.6818202 32.4545619,32.2007393 32.4545619,32.8408196 C32.4545619,33.4810356 31.9356428,33.9999547 31.2953815,33.9999547 L16.9999094,33.9999547 C7.61128142,33.9999547 0,26.3886733 0,16.9998642 C0,7.61128142 7.61128142,1.42108547e-14 16.9999094,1.42108547e-14 Z M13.8936391,10.0454607 C13.0482732,10.0454607 12.3635952,10.705327 12.3635952,11.5197687 L12.3635952,11.5197687 L12.3635952,22.478556 C12.3635952,22.7493575 12.4402038,23.0146351 12.5846825,23.2436912 C13.0227823,23.9398243 13.9638637,24.1623152 14.6863479,23.7396096 L14.6863479,23.7396096 L23.9900817,18.3042478 C24.1978576,18.1838111 24.3726266,18.0168297 24.4992662,17.8175206 C24.9428445,17.1243758 24.7187236,16.2163919 23.9992729,15.789068 L23.9992729,15.789068 L14.6957203,10.2649181 C14.4546658,10.1211638 14.1764389,10.0454607 13.8936391,10.0454607 Z" id="path-4"></path>
+        <filter x="-17.6%" y="-17.6%" width="135.3%" height="135.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.964705882   0 0 0 0 0.305882353   0 0 0 0 0.490196078  0 0 0 0.155594406 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品__插件_海量视频嵌入器插件" transform="translate(-350.000000, -549.000000)">
+            <g id="编组-16备份" transform="translate(310.000000, 521.000000)">
+                <g id="形状结合" transform="translate(40.000000, 28.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="蒙版"></g>
+                    <g opacity="0.7" mask="url(#mask-2)">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

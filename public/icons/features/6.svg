@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Tags Section</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="60" height="60"></rect>
+        <linearGradient x1="100%" y1="50%" x2="7.84664451%" y2="0.123899994%" id="linearGradient-3">
+            <stop stop-color="#EE396B" offset="0%"></stop>
+            <stop stop-color="#EE396B" offset="48.5420914%"></stop>
+            <stop stop-color="#FF6590" offset="100%"></stop>
+        </linearGradient>
+        <path d="M10.0024084,4 L29.9677566,4.48194974 C31.2757792,4.55073631 32.5150151,5.10153602 33.4100012,6.06537211 L54.4077819,27.0631528 C56.5420674,29.1973749 56.5420674,32.7085328 54.3389954,34.8427549 L34.8557871,54.3261534 C32.721565,56.4603755 29.279257,56.4603755 27.076185,54.3950034 L6.07840426,33.3281191 C5.11456817,32.433133 4.56383186,31.193897 4.4949819,29.8858745 L4.01303215,9.98962983 C3.80648226,6.89150827 6.07840426,4.27539985 9.17620884,4 L10.0024084,4 Z M15.8542749,9.92077987 C12.8127041,9.92077987 10.3465948,12.3865722 10.3465948,15.42846 C10.3465948,18.4700307 12.8127041,20.93614 15.8542749,20.93614 C18.8961627,20.93614 21.361955,18.4700307 21.361955,15.42846 C21.361955,12.3865722 18.8961627,9.92077987 15.8542749,9.92077987 Z" id="path-4"></path>
+        <filter x="-11.5%" y="-11.6%" width="123.1%" height="123.1%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.964705882   0 0 0 0 0.305882353   0 0 0 0 0.490196078  0 0 0 0.155594406 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_亮点" transform="translate(-985.000000, -1055.000000)">
+            <g id="编组-9" transform="translate(350.000000, 505.000000)">
+                <g id="编组-19备份-5" transform="translate(620.000000, 520.000000)">
+                    <g id="Tags-Section" transform="translate(15.000000, 30.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <g id="形状结合" opacity="0.7" mask="url(#mask-2)">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

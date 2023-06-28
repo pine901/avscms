@@ -1,0 +1,1 @@
+export const PAYPAL_STORE_LINK="https://www.avscms.com/paypal-store.php"

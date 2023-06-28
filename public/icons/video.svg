@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Fill 1</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="34" height="34"></rect>
+        <linearGradient x1="100%" y1="50%" x2="7.84664451%" y2="25.0865122%" id="linearGradient-3">
+            <stop stop-color="#EE396B" offset="0%"></stop>
+            <stop stop-color="#EE396B" offset="48.5420914%"></stop>
+            <stop stop-color="#FF6590" offset="100%"></stop>
+        </linearGradient>
+        <path d="M22.8553445,29.0000503 L4.08115735,29.0000503 C1.82874299,28.9980317 0.00244872762,27.4746476 0,25.5950439 L0,8.40510558 C0.00244872762,6.52615129 1.82812043,5.00317737 4.08115735,5.00005035 L22.8553445,5.00005035 C25.0640968,4.99008659 26.8745781,6.46021887 26.9225565,8.30215667 L26.9225565,8.34611161 C26.9236771,8.36610667 26.9236771,8.38709294 26.9225565,8.40763487 L26.9225565,12.4261628 L31.2532351,10.5541469 C31.817729,10.276848 32.5208459,10.2744554 33.0879961,10.5481313 C33.6583421,10.8247809 34.006103,11.3310831 34,11.8760765 L34,22.2011137 C33.9981342,23.0450418 33.178433,23.7290437 32.1669425,23.7301032 C31.8472383,23.73253 31.532722,23.6638974 31.2563064,23.5315882 L26.9249637,21.6595724 L26.9249637,25.5946338 C26.9277445,25.6284032 26.9277445,25.6623435 26.9249637,25.6961129 L26.9249637,25.7735297 C26.8168462,27.5825184 25.0263283,29.0020307 22.8553445,29.0000503 Z M7.28264044,9.85734864 C5.98124547,9.85834619 4.77908623,10.5537018 4.12930183,11.6814032 C3.47951743,12.80898 3.48080405,14.1975745 4.13237311,15.3241968 C4.7841497,16.450819 5.98726353,17.1440579 7.28878301,17.1430629 C9.30059951,17.1412772 10.9302485,15.5090134 10.9284653,13.4970724 C10.9268452,11.4852559 9.29458145,9.85556544 7.28264044,9.85734864 Z" id="path-4"></path>
+        <filter x="-17.6%" y="-25.0%" width="135.3%" height="150.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.964705882   0 0 0 0 0.305882353   0 0 0 0 0.490196078  0 0 0 0.155594406 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品__插件_视频抓取插件" transform="translate(-350.000000, -521.000000)">
+            <g id="编组-16备份" transform="translate(310.000000, 493.000000)">
+                <g id="Fill-1" transform="translate(40.000000, 28.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="蒙版"></g>
+                    <g opacity="0.7" mask="url(#mask-2)">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Nested Comments</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="60" height="60"></rect>
+        <linearGradient x1="100%" y1="50%" x2="7.84664451%" y2="8.24898087%" id="linearGradient-3">
+            <stop stop-color="#EE396B" offset="0%"></stop>
+            <stop stop-color="#EE396B" offset="48.5420914%"></stop>
+            <stop stop-color="#FF6590" offset="100%"></stop>
+        </linearGradient>
+        <path d="M37.7588152,7 C42.5195734,7 46.3793655,10.8597921 46.3793655,15.6209712 L46.379,24.241 L51.5519651,24.2415216 C53.8505989,24.2415216 55,25.3908385 55,27.6898932 L55,49.2416899 C55,51.5404079 53.8505989,52.6897248 51.5519651,52.6897248 L8.44837166,52.6897248 C6.14931691,52.6897248 5,51.5404079 5,49.2416899 L5,10.4483717 C5,8.54398419 6.54364744,7 8.44837166,7 L37.7588152,7 Z M40.3448624,40.6208029 L15.3447782,40.6208029 C13.6205503,40.6208029 12.7586468,41.4830431 12.7586468,43.2071869 C12.7586468,44.9314148 13.6205503,45.7933183 15.3447782,45.7933183 L15.3447782,45.7933183 L40.3448624,45.7933183 C42.0690903,45.7933183 42.9309938,44.9314148 42.9309938,43.2071869 C42.9309938,41.4830431 42.0690903,40.6208029 40.3448624,40.6208029 L40.3448624,40.6208029 Z M23.9656653,27.6898932 L15.3447782,27.6898932 C13.6205503,27.6898932 12.7586468,28.5517967 12.7586468,30.2760246 C12.7586468,32.0001684 13.6205503,32.8621561 15.3447782,32.8621561 L15.3447782,32.8621561 L23.9656653,32.8621561 C25.6894723,32.8621561 26.5517967,32.0001684 26.5517967,30.2760246 C26.5517967,28.5517967 25.6894723,27.6898932 23.9656653,27.6898932 L23.9656653,27.6898932 Z M29.1378439,13.8967433 L15.3447782,13.8967433 C13.6205503,13.8967433 12.7586468,14.758731 12.7586468,16.4828747 C12.7586468,18.2070185 13.6205503,19.0690062 15.3447782,19.0690062 L15.3447782,19.0690062 L29.1378439,19.0690062 C30.8620719,19.0690062 31.7239754,18.2070185 31.7239754,16.4828747 C31.7239754,14.758731 30.8620719,13.8967433 29.1378439,13.8967433 L29.1378439,13.8967433 Z" id="path-4"></path>
+        <filter x="-12.0%" y="-13.1%" width="124.0%" height="126.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.964705882   0 0 0 0 0.305882353   0 0 0 0 0.490196078  0 0 0 0.155594406 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_亮点" transform="translate(-985.000000, -795.000000)">
+            <g id="编组-9" transform="translate(350.000000, 505.000000)">
+                <g id="编组-19备份-3" transform="translate(620.000000, 260.000000)">
+                    <g id="Nested-Comments" transform="translate(15.000000, 30.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <g id="形状结合" opacity="0.7" mask="url(#mask-2)">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

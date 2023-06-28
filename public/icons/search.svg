@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状结合</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="80" height="80"></rect>
+        <linearGradient x1="100%" y1="50%" x2="7.84664451%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#EE396B" offset="0%"></stop>
+            <stop stop-color="#EE396B" offset="48.5420914%"></stop>
+            <stop stop-color="#FF6590" offset="100%"></stop>
+        </linearGradient>
+        <path d="M40,6 C58.7776815,6 74,21.2223185 74,40 C74,58.7776815 58.7776815,74 40,74 C21.2223185,74 6,58.7776815 6,40 C6,21.2223185 21.2223185,6 40,6 Z M37.593133,24.8313958 C32.1408369,24.8098449 27.2823422,28.2674487 25.516731,33.4257641 C23.7507908,38.5837506 25.4714083,44.2937527 29.7930223,47.6176916 C34.1146364,50.9417127 40.0746125,51.1396191 44.607047,48.1093318 C44.7548599,48.4075075 44.9399344,48.6854483 45.1584047,48.9364094 L51.590362,55.3683668 C52.372775,56.1282417 53.5326577,56.3486861 54.5390519,55.9287725 C55.545693,55.5087767 56.2050519,54.5294444 56.2153846,53.438903 C56.2197756,52.7146446 55.9328689,52.0193401 55.419102,51.5091101 L55.5109812,51.5091101 L49.1095406,45.0771527 C48.8585795,44.8586825 48.5806386,44.673608 48.282463,44.5257951 C50.8795935,40.6147998 51.1032458,35.5885041 48.8637616,31.4622466 C46.623866,27.335989 42.2877751,24.7848392 37.593133,24.8313958 Z M37.6850122,28.231174 C42.7598385,28.231174 46.8735111,32.3452578 46.8735111,37.4200019 C46.8738401,39.8783676 45.889079,42.2341609 44.1391786,43.9608653 C42.4654395,45.6125743 40.2254576,46.5568561 37.8823917,46.6071948 L37.664,46.608 L37.4188245,46.6047192 C32.4671806,46.4638626 28.4961844,42.4057153 28.4961844,37.4200019 C28.4961844,32.3452578 32.6102682,28.231174 37.6850122,28.231174 Z" id="path-4"></path>
+        <filter x="-8.8%" y="-8.8%" width="117.6%" height="117.6%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.964705882   0 0 0 0 0.305882353   0 0 0 0 0.490196078  0 0 0 0.155594406 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品__-插件_Lighttpd-串流" transform="translate(-350.000000, -342.000000)">
+            <g id="编组-13" transform="translate(350.000000, 311.000000)">
+                <g id="形状结合" transform="translate(0.000000, 31.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="蒙版"></g>
+                    <g opacity="0.7" mask="url(#mask-2)">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

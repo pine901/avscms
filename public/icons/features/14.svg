@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状结合</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="60" height="60"></rect>
+        <linearGradient x1="92.9074145%" y1="50%" x2="13.8261701%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#EE396B" offset="0%"></stop>
+            <stop stop-color="#EE396B" offset="48.5420914%"></stop>
+            <stop stop-color="#FF6590" offset="100%"></stop>
+        </linearGradient>
+        <path d="M7,5 L53.3181468,5 L49.5294005,48.9700803 L29.8923291,55 L11.2157326,48.9700803 L7,5 Z M44.0865137,18.2870586 L45.2071004,11.6169526 L15.3777256,11.5634734 L17.2988057,31.5741823 L36.7224817,31.5741823 L36.7224817,36.8036084 L30.2124223,39.0981958 L23.435358,36.6969759 L23.0086974,33.8687696 L17.6723781,33.9221836 L18.4728715,40.9658619 L29.8923291,44.968134 L41.8987544,41.1793877 L43.4460668,25.0640577 L22.3147713,25.0640577 L21.7812176,18.2870586 L44.0865137,18.2870586 Z" id="path-4"></path>
+        <filter x="-13.0%" y="-12.0%" width="125.9%" height="124.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.964705882   0 0 0 0 0.305882353   0 0 0 0 0.490196078  0 0 0 0.155594406 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="产品_亮点" transform="translate(-985.000000, -2231.000000)">
+            <g id="编组-11" transform="translate(350.000000, 1421.000000)">
+                <g id="编组-19备份-13" transform="translate(620.000000, 780.000000)">
+                    <g id="形状结合" transform="translate(15.000000, 30.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="蒙版"></g>
+                        <g id="Fill-1" opacity="0.7" mask="url(#mask-2)">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
